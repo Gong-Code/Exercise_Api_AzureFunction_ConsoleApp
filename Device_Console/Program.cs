@@ -32,7 +32,6 @@ namespace Device_Console
             deviceClient = DeviceClient.CreateFromConnectionString(connectionString);
             Console.WriteLine($"Device Connection: {connectionString}");
             Console.WriteLine("Device Connected");
-
         }
     }
 }
